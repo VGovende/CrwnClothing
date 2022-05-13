@@ -87,7 +87,7 @@ const SignUpForm = () => {
                     value={confirmPassword} 
                     required/>
 
-                <Button type='Submit'>Sign Up</Button>
+                <Button buttonType='inverted' type='Submit'>Sign Up :</Button>
             </form>
         </div>
     );
