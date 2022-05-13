@@ -1,0 +1,24 @@
+
+Section 7: React Context For State Management
+
+
+What the PR does
+
+Merges into the main branch the `User Context`
+
+Description of task to be completed
+created a `useContext` to save the current user -('user.context.jsx')
+created a function to save current user in `SignUpForm` and call the function in `handleSubmit` in (`sign-up-form.components.jsx`)
+set the current user in the NavigationBar (`navigation.components.jsx`)
+Added sign out button in (`navigation.components.jsx`)
+
+Screenshots
+
+Ticket name
+Section 7: React Context For State Management
+
+Ticket ID
+WHP-118
+
+PR
+Delivers: a feature
