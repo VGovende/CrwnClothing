@@ -17,24 +17,20 @@ const SignInForm = () => {
     
     const resetFormFields =()=>{
         setFormFields(defaultFormFields);
-    }
-
-    const { setCurrentUser } = useContext(userContext);
-    
+    }    
 
     const SignInWithGoogle = async () => {
-        const {user} = await signInWithGooglePopup();
-        await createUserDocumentFromAuth(user);
+        await signInWithGooglePopup();
     };
 
     const handleSubmit =async (event)=>{
         event.preventDefault();
 
         try {
-            const {user} = await signAuthInWithEmailAndPassword(email, password);
+            await signAuthInWithEmailAndPassword(email, password);
             //setting the current user
-                setCurrentUser(user);
-            console.log(user); 
+                // setCurrentUser(user);
+            // console.log(user); 
             resetFormFields();
         } catch (error) {
             if (error.code ==='auth/wrong-password') {

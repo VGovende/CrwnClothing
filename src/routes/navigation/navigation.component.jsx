@@ -11,13 +11,8 @@ import './navigation.style.scss'
 
 const NavigationBar = () => {
     //getting the user usecontex to be used in this component
-    const { currentUser ,setCurrentUser} = useContext(userContext);
+    const { currentUser } = useContext(userContext);
 
-    // setting up the signout implementation
-    const signOutHandler = async () => {
-        await SignOutUser();
-        setCurrentUser(null);
-    }
     
     return(
         <Fragment>
@@ -33,7 +28,7 @@ const NavigationBar = () => {
                         //if there is a user signed in
                         currentUser ?(
                             //display signout and onclick execute signout
-                            <span className = 'Signin' onClick={signOutHandler}>
+                            <span className = 'Signin' onClick={SignOutUser}>
                                 Sign Out
                             </span>
                         )
@@ -44,7 +39,6 @@ const NavigationBar = () => {
                                 Sign in
                             </Link>)
                     }
-                    
                 </div>
             </div>
         <Outlet/>

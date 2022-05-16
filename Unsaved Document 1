@@ -4,14 +4,11 @@ Section 7: React Context For State Management
 
 What the PR does
 
-Merges into the main branch the `User Context`
+Merges into the main branch the `Observer Pattern`
 
 Description of task to be completed
-created a `useContext` to save the current user -('user.context.jsx')
-created a function to save current user in `SignUpForm` and call the function in `handleSubmit` in (`sign-up-form.components.jsx`)
-set the current user in the NavigationBar (`navigation.components.jsx`)
-Added sign out button in (`navigation.components.jsx`)
-
+added a `onAuthStateChanged listner` to the user `user.context.jsx` that listens if the user has signed out or hasnt.
+removed all instances of `setCurrentUser` and focused on setting the user to `onAuthStateChanged`.
 Screenshots
 
 Ticket name
