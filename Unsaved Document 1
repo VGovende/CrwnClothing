@@ -1,0 +1,21 @@
+
+Section 7: React Context For State Management
+
+
+What the PR does
+
+Merges into the main branch the `Observer Pattern`
+
+Description of task to be completed
+added a `onAuthStateChanged listner` to the user `user.context.jsx` that listens if the user has signed out or hasnt.
+removed all instances of `setCurrentUser` and focused on setting the user to `onAuthStateChanged`.
+Screenshots
+
+Ticket name
+Section 7: React Context For State Management
+
+Ticket ID
+WHP-118
+
+PR
+Delivers: a feature
