@@ -5,12 +5,7 @@ import NavigationBar from './routes/navigation/navigation.component'
 import Authentication from './routes/authentication /authentication.component'
 
 import {Routes ,Route} from 'react-router-dom';
-
-
-
-const Shop = () => {
-  return <h1>I AM A SHOP</h1>;
-};
+import Shop from './routes/shop/shop.component';
 
 const App = () => {
   return(

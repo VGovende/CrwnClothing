@@ -19,8 +19,12 @@
         justify-content: flex-end;
 
         .nav-link {
-        padding: 10px 15px;
+        padding: 10px 15px 0px 10px;
         cursor: pointer;
+        }
+
+        .Shop-link{
+            padding: 10px;
         }
     }
 }

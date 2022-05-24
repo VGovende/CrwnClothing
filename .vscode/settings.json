@@ -1,0 +1,23 @@
+{
+  "window.autoDetectColorScheme": true,
+  "workbench.preferredDarkColorTheme": "Default Dark+",
+  "workbench.preferredHighContrastLightColorTheme": "Default Dark+",
+  "workbench.preferredLightColorTheme": "Default Dark+",
+  "workbench.colorTheme": "Default Dark+",
+  "workbench.sideBar.location": "left",
+  "workbench.statusBar.visible": true,
+  "workbench.tips.enabled": true,
+  "workbench.view.alwaysShowHeaderActions": true,
+  "breadcrumbs.showVariables": true,
+  "workbench.editor.autoLockGroups": {
+    "interactive": true
+  },
+  "zenMode.silentNotifications": true,
+  "zenMode.restore": true,
+  "zenMode.hideTabs": true,
+  "zenMode.hideStatusBar": true,
+  "zenMode.hideLineNumbers": true,
+  "zenMode.hideActivityBar": true,
+  "zenMode.fullScreen": true,
+  "zenMode.centerLayout": true
+}
